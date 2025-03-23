@@ -31,19 +31,20 @@ a {
   font-family: "Big Shoulders", sans-serif;
 }
 *::selection {
-  background: #36c49f;
-  color: #ffefef;
+  background: #dd2b26;
+  color: #1b1d1b;
 }
 body::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.2rem;
 }
 
 body::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: #1b1d1b;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #119d72;
+  background-color: #dd2b26;
+  border-radius: 2rem;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -86,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 480px) {
   .nav__logo img {
-    max-width: 40%; /* Scale further for small devices */
+    max-width: 55%; /* Scale further for small devices */
   }
 }
 
@@ -309,5 +310,77 @@ body::-webkit-scrollbar-thumb {
   100% {
     transform: scale(1);
     /* Return to original size */
+  }
+}
+/* 🔹 COMMON BUTTON STYLES */
+.btn-comp {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 🔸 PRIMARY BUTTON */
+.primary-btn {
+  background-color: #dd2b26;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-size: 1rem;
+}
+
+.primary-btn:hover {
+  background-color: #d62828;
+  transform: scale(1.05);
+}
+
+.primary-btn:active {
+  transform: scale(0.98);
+}
+
+/* 🔸 SECONDARY BUTTON */
+.secondary-btn {
+  background-color: #1b1d1b;
+
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-size: 1rem;
+}
+
+.secondary-btn:hover {
+  background-color: #000000;
+  transform: translateY(-2px);
+}
+
+.secondary-btn:active {
+  transform: scale(0.97);
+}
+
+.secondary-btn svg {
+  font-size: 1.3rem;
+  transition: transform 0.3s;
+}
+
+.secondary-btn:hover svg {
+  transform: translateX(4px);
+}
+
+/* 🔸 RESPONSIVE BUTTONS */
+@media (max-width: 768px) {
+  .btn-comp {
+    padding: 12px 22px;
+    font-size: 0.9rem;
   }
 }
