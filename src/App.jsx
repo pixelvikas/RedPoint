@@ -10,6 +10,7 @@ import About from "./pages/About/About";
 import Shop from "./pages/Shop/Shop";
 import Product from "./pages/Product/Product";
 import Contact from "./pages/Contact/Contact";
+import Loading from "./components/LoadingPage";
 
 // Instantly scroll to top on route change for smoother navigation
 const ScrollToTop = () => {
@@ -46,10 +47,6 @@ const MainApp = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:product" element={<Product />} />
           <Route path="/contact" element={<Contact />} />
-          <Route
-            path="*"
-            element={<h1 className="text-center p-10">404 - Page Not Found</h1>}
-          />
         </Routes>
       </Suspense>
       <Footer />
