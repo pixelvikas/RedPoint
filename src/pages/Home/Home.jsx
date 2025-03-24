@@ -9,6 +9,20 @@ import client2 from "../../assets/client2.png";
 import client3 from "../../assets/client3.png";
 import client4 from "../../assets/client4.png";
 import client5 from "../../assets/client5.png";
+
+import trousers from "../../assets/trousers.jpg";
+import jackets from "../../assets/jackets.jpg";
+import accessories from "../../assets/accessories.jpg";
+import suits from "../../assets/suits.jpg";
+import shoes from "../../assets/shoes.jpg";
+
+import { HiMiniArrowLongRight } from "react-icons/hi2";
+
+import { FaGlobeAmericas } from "react-icons/fa";
+import { PiPackageFill } from "react-icons/pi";
+import { FaClipboardCheck } from "react-icons/fa";
+import { GrSecure } from "react-icons/gr";
+
 const Home = () => {
   const clientLogos = [
     { src: client1, alt: "Client 1" },
@@ -38,6 +52,13 @@ const Home = () => {
       name: "HI-PRO GOGGLES",
       rating: 4,
     },
+  ];
+  const categories = [
+    { name: "TROUSERS", img: trousers },
+    { name: "JACKETS", img: jackets },
+    { name: "ACCESSORIES", img: accessories },
+    { name: "SUITS", img: suits },
+    { name: "SHOES", img: shoes },
   ];
   return (
     <>
@@ -97,6 +118,97 @@ const Home = () => {
                 />
               ))}
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="categories-container">
+        <h2>
+          DISCOVER MOST{" "}
+          <span className="highlight">
+            POPULAR <br />
+            CATEGORIES
+          </span>{" "}
+          FOR PROTECTION
+        </h2>
+        <div className="parent">
+          <div className="category-item div1">
+            <img src={trousers} alt="Trousers" />
+            <div className="overlay">
+              <h1>TROUSERS</h1>
+              <button>
+                CHECK IT NOW <HiMiniArrowLongRight />
+              </button>
+            </div>
+          </div>
+          <div className="category-item div2">
+            <img src={jackets} alt="Jackets" />
+            <div className="overlay">
+              <h1>JACKETS</h1>
+              <button>
+                CHECK IT NOW <HiMiniArrowLongRight />
+              </button>
+            </div>
+          </div>
+          <div className="category-item div3">
+            <img src={accessories} alt="Accessories" />
+            <div className="overlay">
+              <h1>ACCESSORIES</h1>
+              <button>
+                CHECK IT NOW <HiMiniArrowLongRight />
+              </button>
+            </div>
+          </div>
+          <div className="category-item div4">
+            <img src={suits} alt="Suits" />
+            <div className="overlay">
+              <h1>SUITS</h1>
+              <button>
+                CHECK IT NOW <HiMiniArrowLongRight />
+              </button>
+            </div>
+          </div>
+          <div className="category-item div5">
+            <img src={shoes} alt="Shoes" />
+            <div className="overlay">
+              <h1>SHOES</h1>
+              <button>
+                CHECK IT NOW <HiMiniArrowLongRight />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="info-banner">
+        <div className="info-item">
+          <FaGlobeAmericas size={40} />
+          <div>
+            <h3>Global Reach</h3>
+            <p>Premium safety wear showcased across industries worldwide.</p>
+          </div>
+        </div>
+
+        <div className="info-item">
+          <PiPackageFill size={40} />
+          <div>
+            <h3>Fast Dispatch</h3>
+            <p>Quick sample & catalog dispatch for evaluation needs.</p>
+          </div>
+        </div>
+
+        <div className="info-item">
+          <FaClipboardCheck size={40} />
+          <div>
+            <h3>Quality Assurance</h3>
+            <p>Strict quality checks for optimal protection and durability.</p>
+          </div>
+        </div>
+
+        <div className="info-item">
+          <GrSecure size={40} />
+          <div>
+            <h3>Secure Experience</h3>
+            <p>Safe inquiries and strict customer data protection.</p>
           </div>
         </div>
       </div>
