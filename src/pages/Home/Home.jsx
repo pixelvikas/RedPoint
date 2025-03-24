@@ -23,6 +23,8 @@ import { PiPackageFill } from "react-icons/pi";
 import { FaClipboardCheck } from "react-icons/fa";
 import { GrSecure } from "react-icons/gr";
 
+import testimonialbg from "../../assets/testimonialbg.jpg";
+
 const Home = () => {
   const clientLogos = [
     { src: client1, alt: "Client 1" },
@@ -209,6 +211,24 @@ const Home = () => {
           <div>
             <h3>Secure Experience</h3>
             <p>Safe inquiries and strict customer data protection.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonial-section">
+        <img
+          src={testimonialbg}
+          alt="Customer Testimonial"
+          className="testimonial-image"
+        />
+        <div className="testimonial-content">
+          <div>
+            <h1>
+              “LOVE THE KNEE PAD POCKETS, I KNEEL A LOT & RARELY WEAR OUT THE
+              KNEES. LOVE THE POCKETS ON THE RIGHT OUTER THIGH...”
+            </h1>
+            <p className="testimonial-name">Aditya Gupta</p>
+            <p className="testimonial-role">ONGC | Security Head</p>
           </div>
         </div>
       </div>
