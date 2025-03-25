@@ -24,6 +24,7 @@ import { FaClipboardCheck } from "react-icons/fa";
 import { GrSecure } from "react-icons/gr";
 
 import testimonialbg from "../../assets/testimonialbg.jpg";
+import customsamplebg from "../../assets/customsamplebg.png";
 
 const Home = () => {
   const clientLogos = [
@@ -230,6 +231,37 @@ const Home = () => {
             <p className="testimonial-name">Aditya Gupta</p>
             <p className="testimonial-role">ONGC | Security Head</p>
           </div>
+        </div>
+      </div>
+
+      <div className="store-banner">
+        <img
+          src={customsamplebg}
+          alt="Get your custom-made sample"
+          className="store-banner-image"
+        />
+        <div className="store-banner-section">
+          <div className="store-banner-content">
+            <h1>GET YOUR CUSTOM-MADE SAMPLE FAST</h1>
+            <p>
+              Experience premium quality with samples tailored to your needs.
+              Available at 50+ locations Australia-wide.
+            </p>
+            <div className="store-banner-button">
+              <Button text="DISCOVER NOW" variant="primary" link="/contact" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="subscribe-section">
+        <h1>SUBSCRIBE TO OUR MAILING LIST</h1>
+        <p>
+          You work hard, so we made this easy. Sign up for special perks
+          starting now with a <strong>10% Off Coupon!</strong>
+        </p>
+        <div className="subscribe-input-wrapper">
+          <input type="email" placeholder="Enter your email address" />
+          <button type="submit">SUBSCRIBE</button>
         </div>
       </div>
     </>
