@@ -41,10 +41,10 @@ const Header = () => {
         >
           <ul className="nav__list">
             {[
-              { href: "#home", label: "HOME" },
-              { href: "#services", label: "PRODUCTS" },
-              { href: "#whyus", label: "ABOUT" },
-              { href: "#aboutus", label: "CONTACT" },
+              { href: "/", label: "HOME" },
+              { href: "/shop", label: "PRODUCTS" },
+              { href: "/about", label: "ABOUT" },
+              { href: "/contact", label: "CONTACT" },
             ].map((item, idx) => (
               <li className="nav__item" key={idx}>
                 <a href={item.href} className="nav__link" onClick={closeMenu}>
