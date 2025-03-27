@@ -43,7 +43,7 @@ const MainApp = () => {
       <Suspense fallback={<LoadingPage />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-us" element={<About />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:product" element={<Product />} />
           <Route path="/contact" element={<Contact />} />

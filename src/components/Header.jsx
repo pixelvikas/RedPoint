@@ -43,7 +43,7 @@ const Header = () => {
             {[
               { href: "/", label: "HOME" },
               { href: "/shop", label: "PRODUCTS" },
-              { href: "/about", label: "ABOUT" },
+              { href: "/about-us", label: "ABOUT US" },
               { href: "/contact", label: "CONTACT" },
             ].map((item, idx) => (
               <li className="nav__item" key={idx}>
