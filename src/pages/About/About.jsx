@@ -23,7 +23,7 @@ const About = () => {
           />
           <div className="about-page-overlay"></div>
           <div className="about-page-hero-text">
-            <p>HOMEPAGE / ABOUT US</p>
+            <p>HOME / ABOUT US</p>
             <h1>ABOUT US</h1>
           </div>
         </div>
