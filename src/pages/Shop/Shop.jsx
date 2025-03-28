@@ -133,7 +133,7 @@ const Shop = () => {
         {/* Products Section */}
         <main className="shop-products">
           <div className="section-header">
-            <h2 className="section-title">BEST SELLERS</h2>
+            <h2 className="section-title">PRODUCTS</h2>
             {selectedCategories.length > 0 && (
               <div className="active-filters">
                 Filtered by: {selectedCategories.join(", ")}

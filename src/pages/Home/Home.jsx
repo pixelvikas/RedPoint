@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Button from "../../components/Button";
-import { FaStar, FaRegStar } from "react-icons/fa";
+import { FaRegStar, FaStar } from "react-icons/fa";
 import product1 from "../../assets/product1.png";
 
 import client1 from "../../assets/client1.png";
@@ -68,7 +68,6 @@ const Home = () => {
       category: "Shoes",
     },
   ];
-
   const renderStars = (rating) => {
     return Array(5)
       .fill(0)
@@ -89,7 +88,7 @@ const Home = () => {
   ];
   return (
     <>
-      <div className="hero-content">
+      <div className="homepage-content">
         <div className="homepage" id="home">
           <h1>
             BUILT FOR PROTECTION,
@@ -99,7 +98,7 @@ const Home = () => {
             CRAFTED WITH EXCELLENCE.
           </h1>
           <div className="hero-buttons">
-            <Button text="Explore" variant="primary" link="/shop" />
+            <Button text="Explore" variant="primary" link="/products" />
             <Button
               text="Contact"
               variant="secondary"
@@ -109,6 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="products-section">
         <div className="bestseller-header">
           <h2>BEST SELLER</h2>
@@ -135,6 +135,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+
       <div className="clients" id="clients">
         <div className="slider">
           <div className="logos">
@@ -209,6 +210,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="info-banner">
         <div className="info-item">
           <FaGlobeAmericas size={40} />
@@ -242,6 +244,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="testimonial-section">
         <img
           src={testimonialbg}
@@ -259,6 +262,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="store-banner">
         <img
           src={customsamplebg}

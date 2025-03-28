@@ -31,7 +31,7 @@ const Header = () => {
       id="header"
     >
       <nav className="nav container">
-        <a href="#home" className="nav__logo">
+        <a href="/" className="nav__logo">
           <img src={logo} alt="UFS Logo" />
         </a>
 
@@ -42,7 +42,7 @@ const Header = () => {
           <ul className="nav__list">
             {[
               { href: "/", label: "HOME" },
-              { href: "/shop", label: "PRODUCTS" },
+              { href: "/products", label: "PRODUCTS" },
               { href: "/about-us", label: "ABOUT US" },
               { href: "/contact", label: "CONTACT" },
             ].map((item, idx) => (
