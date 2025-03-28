@@ -16,17 +16,12 @@ const Contact = () => {
   return (
     <div className="contact-container">
       {/* Hero Section */}
-      <div className="contact-hero">
-        <img
-          src={abouthero}
-          alt="Contact"
-          className="hero-image"
-          loading="lazy"
-        />
-        <div className="hero-overlay"></div>
-        <div className="hero-content">
-          <p className="breadcrumb">HOME / CONTACT US</p>
-          <h1 className="hero-title">CONTACT US</h1>
+      <div className="about-page-hero">
+        <img src={abouthero} alt="About Us" className="about-page-hero-image" />
+        <div className="about-page-overlay"></div>
+        <div className="about-page-hero-text">
+          <p>HOME / CONTACT</p>
+          <h1>CONTACT</h1>
         </div>
       </div>
 

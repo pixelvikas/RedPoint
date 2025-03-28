@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Button from "../../components/Button";
 import { FaRegStar, FaStar } from "react-icons/fa";
-import product1 from "../../assets/product1.png";
+import producta1 from "../../assets/producta1.png";
 
 import client1 from "../../assets/client1.png";
 import client2 from "../../assets/client2.png";
@@ -37,35 +37,39 @@ const Home = () => {
   const products = [
     {
       id: 1,
-      image: product1,
-      name: "HI-VIS SURVEYOR'S VEST",
+      image: producta1,
+      name: "HI-VIS  VEST",
       rating: 4,
-      price: 29.99,
+
       category: "Jackets",
+      link: "/products/1",
     },
     {
       id: 2,
-      image: product1,
+      image: producta1,
       name: "HARD HAT TYPE-II",
       rating: 5,
-      price: 39.99,
+
       category: "Accessories",
+      link: "/products/1",
     },
     {
       id: 3,
-      image: product1,
+      image: producta1,
       name: "HI-PRO GOGGLES",
       rating: 3,
-      price: 19.99,
+
       category: "Accessories",
+      link: "/products/1",
     },
     {
       id: 4,
-      image: product1,
+      image: producta1,
       name: "SAFETY BOOTS",
       rating: 4,
-      price: 49.99,
+
       category: "Shoes",
+      link: "/products/1",
     },
   ];
   const renderStars = (rating) => {
@@ -116,22 +120,24 @@ const Home = () => {
 
         <div className="products-grid">
           {products.map((product) => (
-            <div className="product-card" key={product.id}>
-              <div className="product-image-container">
-                <img src={product.image} alt={product.name} loading="lazy" />
-              </div>
-              <div className="product-details">
-                <h3 className="product-title">{product.name}</h3>
-                <div className="product-rating">
-                  <div className="stars">
-                    {renderStars(product.rating)}
-                    <span className="rating-value">({product.rating})</span>
-                  </div>
+            <a href={product.link}>
+              <div className="product-card" key={product.id}>
+                <div className="product-image-container">
+                  <img src={product.image} alt={product.name} loading="lazy" />
                 </div>
-                <div className="product-price">${product.price.toFixed(2)}</div>
-                <button className="view-button">View Details</button>
+                <div className="product-details">
+                  <h3 className="product-title">{product.name}</h3>
+                  <div className="product-rating">
+                    <div className="stars">
+                      {renderStars(product.rating)}
+                      <span className="rating-value">({product.rating})</span>
+                    </div>
+                  </div>
+
+                  <button className="view-button">View Details</button>
+                </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

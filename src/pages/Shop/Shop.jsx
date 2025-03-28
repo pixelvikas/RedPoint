@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp, FaStar, FaRegStar } from "react-icons/fa";
 import shopherobg from "../../assets/bc-shop.jpg";
-import product1 from "../../assets/product1.png";
+import producta1 from "../../assets/producta1.png";
 
 import "./style.css";
 
@@ -32,35 +32,57 @@ const Shop = () => {
   const products = [
     {
       id: 1,
-      image: product1,
-      name: "HI-VIS SURVEYOR'S VEST",
+      image: producta1,
+      name: "HI-VIS VEST",
       rating: 4,
-      price: 29.99,
+
       category: "Jackets",
+      link: "/products/1",
     },
     {
       id: 2,
-      image: product1,
+      image: producta1,
       name: "HARD HAT TYPE-II",
       rating: 5,
-      price: 39.99,
+
       category: "Accessories",
+      link: "/products/1",
     },
     {
       id: 3,
-      image: product1,
+      image: producta1,
       name: "HI-PRO GOGGLES",
       rating: 3,
-      price: 19.99,
+
       category: "Accessories",
+      link: "/products/1",
     },
     {
       id: 4,
-      image: product1,
+      image: producta1,
       name: "SAFETY BOOTS",
       rating: 4,
-      price: 49.99,
+
       category: "Shoes",
+      link: "/products/1",
+    },
+    {
+      id: 3,
+      image: producta1,
+      name: "HI-PRO GOGGLES",
+      rating: 3,
+
+      category: "Accessories",
+      link: "/products/1",
+    },
+    {
+      id: 4,
+      image: producta1,
+      name: "SAFETY BOOTS",
+      rating: 4,
+
+      category: "Shoes",
+      link: "/products/1",
     },
   ];
 
@@ -86,17 +108,16 @@ const Shop = () => {
   return (
     <div className="shop-page">
       {/* Hero Section */}
-      <div className="shop-hero">
+      <div className="about-page-hero">
         <img
           src={shopherobg}
-          alt="Products"
-          className="hero-image"
-          loading="lazy"
+          alt="About Us"
+          className="about-page-hero-image"
         />
-        <div className="hero-overlay"></div>
-        <div className="hero-content">
-          <p className="breadcrumb">HOME / PRODUCTS</p>
-          <h1 className="hero-title">PRODUCTS</h1>
+        <div className="about-page-overlay"></div>
+        <div className="about-page-hero-text">
+          <p>HOME / PRODUCTS</p>
+          <h1>PRODUCTS</h1>
         </div>
       </div>
 
@@ -147,31 +168,33 @@ const Shop = () => {
             )}
           </div>
 
-          <div className="products-grid">
+          <div className="shop-products-grid">
             {filteredProducts.length > 0 ? (
               filteredProducts.map((product) => (
-                <div className="product-card" key={product.id}>
-                  <div className="product-image-container">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="product-details">
-                    <h3 className="product-title">{product.name}</h3>
-                    <div className="product-rating">
-                      <div className="stars">
-                        {renderStars(product.rating)}
-                        <span className="rating-value">({product.rating})</span>
+                <a href={product.link}>
+                  <div className="product-card" key={product.id}>
+                    <div className="product-image-container">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="product-details">
+                      <h3 className="product-title">{product.name}</h3>
+                      <div className="product-rating">
+                        <div className="stars">
+                          {renderStars(product.rating)}
+                          <span className="rating-value">
+                            ({product.rating})
+                          </span>
+                        </div>
                       </div>
+
+                      <button className="add-to-cart">View Details</button>
                     </div>
-                    <div className="product-price">
-                      ${product.price.toFixed(2)}
-                    </div>
-                    <button className="add-to-cart">View Details</button>
                   </div>
-                </div>
+                </a>
               ))
             ) : (
               <div className="no-products">
