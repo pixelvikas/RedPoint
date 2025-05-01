@@ -260,8 +260,8 @@ const Home = () => {
         <div className="testimonial-content">
           <div>
             <h1>
-              “LOVE THE KNEE PAD POCKETS, I KNEEL A LOT & RARELY WEAR OUT THE
-              KNEES. LOVE THE POCKETS ON THE RIGHT OUTER THIGH...”
+              “RELIABLE, RUGGED, AND READY FOR ANY CHALLENGE.... YOUR ULTIMATE
+              PARTNER IN SAFETY WEAR. ”
             </h1>
             <p className="testimonial-name">Aditya Gupta</p>
             <p className="testimonial-role">ONGC | Security Head</p>

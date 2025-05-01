@@ -33,14 +33,15 @@ const About = () => {
       <section className="about-content">
         <div className="about-intro">
           <h2>
-            WE ARE THE WORKWEAR SPECIALIST DESTINATION FOR TRADE, SAFETY AND
+            YOUR TRUSTED DESTINATION FOR PROFESSIONAL SAFETY WEAR AND INDUSTRIAL
             UNIFORMS
           </h2>
           <p>
-            Axetor is Australia’s largest network of workwear specialist
-            destinations for Trade, Safety and Uniforms. We are 90 stores
-            strong, with bold plans for more. A steel-toe footprint stretching
-            across the nation and working hard for our local communities.
+            We are a growing network of safety wear specialists, dedicated to
+            equipping the workforce with high-quality protective suits and
+            industrial gear. With a strong footprint across industries and a
+            commitment to reliability, we’re here to support those who keep the
+            world moving—safely and confidently.
           </p>
         </div>
 
@@ -51,7 +52,7 @@ const About = () => {
               alt="Business Idea"
               className="about-box-image"
             />
-            <h3>BUSINESS IDEA</h3>
+            <h3>OUR MISSION</h3>
             <p>
               We sell workwear, work gloves and work shoes for professionals
               with high demands on function, quality, safety and design. We sell
@@ -64,19 +65,18 @@ const About = () => {
             <img src={aboutimg2} alt="Our Vision" className="about-box-image" />
             <h3>OUR VISION</h3>
             <p>
-              We will be a global leading supplier of workwear, work gloves,
-              work shoes and profile clothes for professionals from a wide range
-              of occupations. The main purpose of our products is to facilitate
-              the work of professionals.
+              To become a globally recognized leader in workwear, safety gloves,
+              protective footwear, and professional apparel—designed to support
+              and simplify the work of professionals across diverse industries.
             </p>
           </div>
 
           <div className="trusted-safety">
-            <h3>TRUSTED NAME IN SAFETY</h3>
+            <h3>A TRUSTED NAME IN SAFETY</h3>
             <p>
-              Our success in our market has been driven by not only the depth
-              and breadth of our product range, but also our service commitment
-              to our clients.
+              Our reputation is built not only on the extensive range of our
+              product offerings but also on our unwavering commitment to service
+              excellence. We go beyond gear—we deliver trust and performance.
             </p>
             <ul className="trusted-safety-list">
               <li>

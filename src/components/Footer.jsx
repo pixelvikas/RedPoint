@@ -19,10 +19,9 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={MOLlogo} alt="Thrift Concepts LLP" className="logo" />
             <p className="footer-text">
-              "When you’re moving from your old house to a new location, there
-              are thousands of things to betaken care of. We’ll be your
-              assistants, helping you move all your belongings fast wherever you
-              wish."
+              "Delivering high-performance safety wear designed to withstand the
+              toughest environments. Built for protection, trusted by
+              professionals, and crafted with precision for every challenge."
             </p>
             <div className="social-icons">
               <a href="#" aria-label="Instagram">
@@ -61,19 +60,22 @@ const Footer = () => {
           </div>
 
           <div className="footer-links">
-            <h3>Services</h3>
+            <h3>Categories</h3>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="#">TROUSERS</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="#">JACKETS</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#">ACCESSORIES</a>
               </li>
               <li>
-                <a href="#">Our Team</a>
+                <a href="#">SUITS</a>
+              </li>
+              <li>
+                <a href="#">SHOES</a>
               </li>
             </ul>
           </div>
@@ -107,7 +109,7 @@ const Footer = () => {
         {/* Footer Bottom Section */}
       </footer>
       <div className="footer-bottom">
-        <p>© 2024 Pixel Vikas</p>
+        <p>© 2025 Red Point Enterprise</p>
         <div className="footer-bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Services</a>

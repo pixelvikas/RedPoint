@@ -562,3 +562,28 @@ body::-webkit-scrollbar-thumb {
   outline: none;
   box-shadow: 0 0 0 3px #dd2b26;
 }
+
+/*=============== WHATSAAP COMPONENT ===============*/
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-button img {
+  width: 28px;
+  height: 28px;
+}

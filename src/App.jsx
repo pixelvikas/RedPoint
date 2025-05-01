@@ -10,8 +10,8 @@ import About from "./pages/About/About";
 import Shop from "./pages/Shop/Shop";
 import Product from "./pages/Product/Product";
 import Contact from "./pages/Contact/Contact";
+import WhatsAppButton from "./components/WhatsappButton";
 
-// Instantly scroll to top on route change for smoother navigation
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -48,6 +48,7 @@ const MainApp = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>
+      <WhatsAppButton phoneNumber="9324389141" size={50} />
       <Footer />
       <ScrollToTopButton />
     </>
