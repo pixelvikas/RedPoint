@@ -3,7 +3,6 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 import { FiPhoneCall, FiHeart, FiShare2 } from "react-icons/fi";
 import { TfiRulerAlt2 } from "react-icons/tfi";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
-
 import "./style.css";
 
 const Product = () => {
@@ -17,9 +16,9 @@ const Product = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.products && data.products.length > 0) {
-          const selectedProduct = data.products[0]; // Load first product
+          const selectedProduct = data.products[0];
           setProduct(selectedProduct);
-          setMainImage(`/src/assets/${selectedProduct.image1}`);
+          setMainImage(`/assets/${selectedProduct.image1}`);
         }
       })
       .catch((err) => console.error("Failed to fetch product data", err));
@@ -34,7 +33,7 @@ const Product = () => {
     product.image4,
   ]
     .filter(Boolean)
-    .map((img) => `/src/assets/${img}`);
+    .map((img) => `/assets/${img}`);
 
   const handleThumbnailClick = (image) => setMainImage(image);
   const toggleWishlist = () => setIsWishlisted(!isWishlisted);
@@ -149,7 +148,7 @@ const Product = () => {
             </div>
             <div className="right-section">
               <img
-                src={productImages[0]}
+                src={mainImage}
                 alt={product.name}
                 className="product-image"
               />

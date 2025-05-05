@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import Button from "../../components/Button";
 import { FaRegStar, FaStar } from "react-icons/fa";
-import producta1 from "../../assets/producta1.png";
 
 import client1 from "../../assets/client1.png";
 import client2 from "../../assets/client2.png";
@@ -27,6 +26,7 @@ import testimonialbg from "../../assets/testimonialbg.jpg";
 import customsamplebg from "../../assets/customsamplebg.png";
 
 const Home = () => {
+  const [products, setProducts] = useState([]);
   const clientLogos = [
     { src: client1, alt: "Client 1" },
     { src: client2, alt: "Client 2" },
@@ -34,62 +34,25 @@ const Home = () => {
     { src: client4, alt: "Client 4" },
     { src: client5, alt: "Client 5" },
   ];
-  const products = [
-    {
-      id: 1,
-      image: producta1,
-      name: "HI-VIS  VEST",
-      rating: 4,
-
-      category: "Jackets",
-      link: "/products/1",
-    },
-    {
-      id: 2,
-      image: producta1,
-      name: "HARD HAT TYPE-II",
-      rating: 5,
-
-      category: "Accessories",
-      link: "/products/1",
-    },
-    {
-      id: 3,
-      image: producta1,
-      name: "HI-PRO GOGGLES",
-      rating: 3,
-
-      category: "Accessories",
-      link: "/products/1",
-    },
-    {
-      id: 4,
-      image: producta1,
-      name: "SAFETY BOOTS",
-      rating: 4,
-
-      category: "Shoes",
-      link: "/products/1",
-    },
-  ];
+  useEffect(() => {
+    fetch("/shop-data.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setProducts(data.products);
+      })
+      .catch((err) => console.error("Failed to fetch products:", err));
+  }, []);
   const renderStars = (rating) => {
-    return Array(5)
-      .fill(0)
-      .map((_, i) =>
-        i < rating ? (
-          <FaStar key={i} className="star-icon" />
-        ) : (
-          <FaRegStar key={i} className="star-icon" />
-        )
-      );
+    return [...Array(5)].map((_, index) => (
+      <span
+        key={index}
+        className={index < rating ? "text-yellow-500" : "text-gray-300"}
+      >
+        ★
+      </span>
+    ));
   };
-  const categories = [
-    { name: "TROUSERS", img: trousers },
-    { name: "JACKETS", img: jackets },
-    { name: "ACCESSORIES", img: accessories },
-    { name: "SUITS", img: suits },
-    { name: "SHOES", img: shoes },
-  ];
+
   return (
     <>
       <div className="homepage-content">
@@ -120,10 +83,10 @@ const Home = () => {
 
         <div className="products-grid">
           {products.map((product) => (
-            <a href={product.link}>
-              <div className="product-card" key={product.id}>
+            <a href={product.link} key={product.id}>
+              <div className="product-card">
                 <div className="product-image-container">
-                  <img src={product.image} alt={product.name} loading="lazy" />
+                  <img src={product.image1} alt={product.name} loading="lazy" />
                 </div>
                 <div className="product-details">
                   <h3 className="product-title">{product.name}</h3>
@@ -133,7 +96,6 @@ const Home = () => {
                       <span className="rating-value">({product.rating})</span>
                     </div>
                   </div>
-
                   <button className="view-button">View Details</button>
                 </div>
               </div>
