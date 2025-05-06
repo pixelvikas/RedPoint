@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import Button from "../../components/Button";
 import { FaRegStar, FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import client1 from "../../assets/client1.png";
 import client2 from "../../assets/client2.png";
@@ -82,8 +83,8 @@ const Home = () => {
         </div>
 
         <div className="products-grid">
-          {products.map((product) => (
-            <a href={product.link} key={product.id}>
+          {products.slice(0, 4).map((product) => (
+            <Link to={`/products/${product.id}`} key={product.id}>
               <div className="product-card">
                 <div className="product-image-container">
                   <img src={product.image1} alt={product.name} loading="lazy" />
@@ -99,7 +100,7 @@ const Home = () => {
                   <button className="view-button">View Details</button>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

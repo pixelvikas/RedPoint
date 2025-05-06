@@ -1,65 +1,299 @@
 {
-    "categories": [
-        {
-            "name": "Trousers",
-            "count": 15
-        },
-        {
-            "name": "Jackets",
-            "count": 2
-        },
-        {
-            "name": "Accessories",
-            "count": 7
-        },
-        {
-            "name": "Suits",
-            "count": 17
-        },
-        {
-            "name": "Shoes",
-            "count": 2
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "image1": "/producta1.png",
-            "image2": "/producta2.png",
-            "image3": "/producta3.png",
-            "image4": "/producta4.png",
-            "name": "HI-VIS Reflective Jacket",
-            "description1": "Stay protected and visible on job sites with this high-visibility, water-resistant safety jacket. Ideal for construction, roadside assistance, and industrial environments.",
-            "bullets": [
-                "ANSI/ISEA 107 Class 3 compliant for maximum visibility",
-                "High-contrast fluorescent yellow with reflective striping",
-                "Water and wind resistant outer shell",
-                "Front zip closure with storm flap",
-                "Inner thermal lining for cold weather protection",
-                "Multiple utility pockets for storage",
-                "Elastic cuffs and waist for secure fit",
-                "Reinforced stitching for durability"
-            ],
-            "description2": "Engineered for the toughest conditions, this safety jacket ensures visibility in low-light and high-risk environments. Designed with reflective taping and bright neon fabric, it enhances worker safety while maintaining comfort. The thermal inner lining keeps you warm during cold shifts, while the durable construction stands up to daily wear on demanding job sites.",
-            "materialCare": [
-                "Outer Material: 100% Polyester with PU coating",
-                "Inner Lining: Quilted polyester thermal insulation",
-                "Care Instructions:",
-                "Machine wash cold with like colors",
-                "Do not bleach",
-                "Tumble dry low",
-                "Do not iron reflective areas",
-                "Do not dry clean"
-            ],
-            "dimensions": [
-                "Chest Width: 26 inches",
-                "Sleeve Length: 34 inches (from center back)",
-                "Jacket Length: 29 inches",
-                "Weight: 1.5 lbs"
-            ],
-            "rating": 4,
-            "category": "Jackets",
-            "link": "/products/1"
-        }
-    ]
+  "categories": [
+    {
+      "name": "Trousers",
+      "count": 15
+    },
+    {
+      "name": "Jackets",
+      "count": 2
+    },
+    {
+      "name": "Accessories",
+      "count": 7
+    },
+    {
+      "name": "Suits",
+      "count": 17
+    },
+    {
+      "name": "Shoes",
+      "count": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image1": "/producta1.png",
+      "image2": "/producta2.png",
+      "image3": "/producta3.png",
+      "image4": "/producta4.png",
+      "name": "HI-VIS REF Jacket",
+      "description1": "Stay protected and visible on job sites with this high-visibility, water-resistant safety jacket. Ideal for construction, roadside assistance, and industrial environments.",
+      "bullets": [
+        "ANSI/ISEA 107 Class 3 compliant for maximum visibility",
+        "High-contrast fluorescent yellow with reflective striping",
+        "Water and wind resistant outer shell",
+        "Front zip closure with storm flap",
+        "Inner thermal lining for cold weather protection",
+        "Multiple utility pockets for storage",
+        "Elastic cuffs and waist for secure fit",
+        "Reinforced stitching for durability"
+      ],
+      "description2": "Engineered for the toughest conditions, this safety jacket ensures visibility in low-light and high-risk environments. Designed with reflective taping and bright neon fabric, it enhances worker safety while maintaining comfort. The thermal inner lining keeps you warm during cold shifts, while the durable construction stands up to daily wear on demanding job sites.",
+      "materialCare": [
+        "Outer Material: 100% Polyester with PU coating",
+        "Inner Lining: Quilted polyester thermal insulation",
+        "Care Instructions:",
+        "Machine wash cold with like colors",
+        "Do not bleach",
+        "Tumble dry low",
+        "Do not iron reflective areas",
+        "Do not dry clean"
+      ],
+      "dimensions": [
+        "Chest Width: 26 inches",
+        "Sleeve Length: 34 inches (from center back)",
+        "Jacket Length: 29 inches",
+        "Weight: 1.5 lbs"
+      ],
+      "rating": 4,
+      "category": "Jackets",
+      "link": "/products/1"
+    },
+    {
+      "id": 2,
+      "image1": "/productb1.png",
+      "image2": "/productb2.png",
+      "name": "HI-VIS REF Jacket",
+      "description1": "This high-visibility work jacket ensures safety in low-light and hazardous conditions, combining comfort and durability for industrial and outdoor environments.",
+      "bullets": [
+        "Meets ANSI/ISEA 107-2020 Class 3 compliance",
+        "Durable polyester outer shell with water-resistant coating",
+        "Reflective tape across chest, shoulders, arms, and back",
+        "Black bottom design to conceal dirt and grime",
+        "Zip-up front with secure collar and inner lining",
+        "Multiple pockets for tool and utility storage",
+        "Elastic cuffs and waistband for snug fit",
+        "Ideal for construction, road work, and warehouses"
+      ],
+      "description2": "Stay safe and visible with our Hi-Vis Reflective Safety Work Jacket. Designed for professionals working in risky or low-visibility conditions, this jacket combines functionality, protection, and style.",
+      "materialCare": [
+        "100% Polyester",
+        "Machine wash cold",
+        "Do not bleach",
+        "Tumble dry low",
+        "Do not iron reflective areas",
+        "Hang dry recommended for longevity",
+        "Avoid fabric softeners",
+        "Wash with like colors"
+      ],
+      "dimensions": [
+        "Available Sizes: M, L, XL, XXL",
+        "Length: 28–32 inches (varies by size)",
+        "Sleeve Length: 24–27 inches",
+        "Chest: 42–52 inches"
+      ],
+      "rating": 4,
+      "category": "Safety Jackets",
+      "link": "/products/2"
+    },
+    {
+      "id": 3,
+      "image1": "/productc1.png",
+      "image2": "/productc2.png",
+      "image3": "/productc3.png",
+      "image4": "/productc4.png",
+      "image5": "/productc5.png",
+      "name": "HI-VIS REF Coverall",
+      "description1": "Stay protected and visible in hazardous environments with this high-visibility orange coverall. Designed for safety and comfort, it features reflective striping for maximum visibility and a durable build for rugged use.",
+      "bullets": [
+        "Bright orange color for high visibility",
+        "Reflective stripes on chest, back, arms, and legs",
+        "Full-body protection with secure front closure",
+        "Adjustable cuffs with Velcro fasteners",
+        "Multiple utility pockets including arm and cargo",
+        "Durable fabric ideal for industrial use",
+        "Ergonomic design for comfortable fit",
+        "Complies with high-visibility safety standards"
+      ],
+      "description2": "This safety coverall is engineered for professionals in construction, road work, emergency services, and industrial environments. With its enhanced visibility and utility features, it ensures both compliance and confidence on the job.",
+      "materialCare": [
+        "100% polyester with reflective tape",
+        "Machine wash cold with similar colors",
+        "Do not bleach",
+        "Tumble dry on low heat",
+        "Do not iron reflective stripes",
+        "Avoid dry cleaning",
+        "Hang dry to preserve shape",
+        "Store in a cool, dry place"
+      ],
+      "dimensions": [
+        "Chest: 44 inches",
+        "Waist: 38 inches",
+        "Inseam: 32 inches",
+        "Sleeve Length: 25 inches"
+      ],
+      "rating": 4,
+      "category": "Protective Gear",
+      "link": "/products/3"
+    },
+    {
+      "id": 4,
+      "image1": "/productd1.png",
+      "image2": "/productd3.png",
+      "image3": "/productd2.png",
+      "name": "HI-VIS REF Shirt",
+      "description1": "Durable and functional two-tone safety work shirt designed for visibility and comfort in industrial environments.",
+      "bullets": [
+        "Two-tone high-visibility orange and navy design",
+        "Reflective tape for enhanced night visibility",
+        "Button-front closure with flap chest pockets",
+        "Breathable cotton fabric for all-day comfort",
+        "Long sleeves with adjustable cuffs",
+        "Meets ANSI/ISEA visibility standards",
+        "Double-stitched seams for added durability",
+        "Ideal for construction, roadwork, and utility jobs"
+      ],
+      "description2": "Stay seen and stay safe with our high-visibility reflective work shirt, crafted for tough environments where visibility is critical. With dual-tone styling and reflective tape, this shirt ensures both safety and a professional look.",
+      "materialCare": [
+        "100% breathable cotton fabric",
+        "Machine wash cold with like colors",
+        "Do not bleach",
+        "Tumble dry low",
+        "Do not dry clean",
+        "Iron on low if needed",
+        "Do not iron reflective tape",
+        "Wash inside out to preserve color"
+      ],
+      "dimensions": [
+        "Chest: 42 inches (Size M)",
+        "Sleeve Length: 34 inches",
+        "Shirt Length: 30 inches",
+        "Shoulder Width: 18 inches"
+      ],
+      "rating": 4,
+      "category": "Workwear / Safety Apparel",
+      "link": "/products/4"
+    },
+    {
+      "id": 5,
+      "image1": "/producte1.png",
+      "image2": "/producte2.png",
+      "image3": "/producte3.png",
+      "image4": "/producte4.png",
+      "image5": "/producte5.png",
+      "name": "Alumi Heat-RES Suit",
+      "description1": "Heavy-duty aluminized suit designed to protect industrial workers from extreme heat, radiant energy, and molten splash exposure.",
+      "bullets": [
+        "Reflective aluminized outer shell for high heat resistance",
+        "Full body coverage including hood, gloves, and boot covers",
+        "Heat-insulating inner layers for extended protection",
+        "Clear face shield integrated into hood for visibility and safety",
+        "Adjustable fit for ease of movement and comfort",
+        "Ideal for foundries, metalwork, and firefighting environments",
+        "Tested to meet EN and NFPA standards",
+        "Durable stitching and reinforced seams for longevity"
+      ],
+      "description2": "Engineered for maximum thermal protection, this aluminized suit is essential for professionals exposed to high-temperature environments. With its reflective surface and insulating layers, it offers reliable defense against radiant heat and molten splash.",
+      "materialCare": [
+        "Do not machine wash – spot clean with damp cloth",
+        "Avoid using harsh detergents or bleach",
+        "Air dry thoroughly after cleaning",
+        "Store in a cool, dry place away from sunlight",
+        "Do not iron or tumble dry",
+        "Inspect before each use for wear and tear",
+        "Follow manufacturer safety guidelines",
+        "Ensure all closures are secured before use"
+      ],
+      "dimensions": [
+        "Chest: 46 inches (One Size Fits Most)",
+        "Suit Length: 62 inches",
+        "Sleeve Length: 34 inches",
+        "Inseam: 30 inches"
+      ],
+      "rating": 4,
+      "category": "Thermal Protection / Industrial Safety Gear",
+      "link": "/products/5"
+    },
+    {
+      "id": 6,
+      "image1": "/productf1.png",
+      "image2": "/productf2.png",
+      "image3": "/productf3.png",
+      "image4": "/productf4.png",
+      "image5": "/productf5.png",
+      "image6": "/productf6.png",
+      "name": "HI-VIS Flame-RES Coverall",
+      "description1": "This high-visibility flame-resistant coverall is designed for maximum safety and comfort in industrial environments. With bright orange color and reflective strips, it ensures visibility and protection in low-light and hazardous conditions.",
+      "bullets": [
+        "Made from durable flame-resistant cotton fabric",
+        "Reflective tape on shoulders, arms, and legs for enhanced visibility",
+        "Two chest pockets with flap closure",
+        "Elasticated waistband for better fit and flexibility",
+        "Full front concealed zipper for easy wear",
+        "Pen pocket on left sleeve",
+        "Ideal for oil & gas, marine, and construction industries",
+        "Complies with international safety standards"
+      ],
+      "description2": "Engineered for professionals working in high-risk environments, this coverall combines safety features with functional design. The breathable fabric and ergonomic fit provide all-day comfort without compromising on safety.",
+      "materialCare": [
+        "Machine wash cold with like colors",
+        "Do not bleach",
+        "Tumble dry low",
+        "Iron on low if needed",
+        "Do not dry clean",
+        "Avoid fabric softeners to maintain flame resistance",
+        "Store in a dry, well-ventilated area",
+        "Inspect regularly for damage or wear"
+      ],
+      "dimensions": [
+        "Available Sizes: S, M, L, XL, XXL",
+        "Length: Full-body coverage",
+        "Weight: Approximately 1.5 kg",
+        "Color: Safety Orange with Reflective Strips"
+      ],
+      "rating": 4,
+      "category": "Industrial Safety Wear",
+      "link": "/products/6"
+    },
+    {
+      "id": 7,
+      "image1": "/productg1.png",
+      "image2": "/productg2.png",
+      "image3": "/productg3.png",
+      "name": "Medical Scrub Set",
+      "description1": "This professional medical scrub set includes a comfortable V-neck top and drawstring pants, designed for healthcare workers who need functionality and all-day comfort. Ideal for clinics, hospitals, and care centers.",
+      "bullets": [
+        "Soft, breathable polyester-cotton blend",
+        "Short-sleeve V-neck top with a flattering fit",
+        "Two spacious front pockets for easy storage",
+        "Drawstring waistband for adjustable comfort",
+        "Durable stitching for long-lasting wear",
+        "Customizable with clinic logo embroidery",
+        "Easy to wash and quick to dry",
+        "Ideal for doctors, nurses, and medical staff"
+      ],
+      "description2": "Built for performance and comfort, this scrub set delivers a clean, professional look while offering the flexibility and features healthcare professionals need during long shifts. The lightweight fabric is perfect for long hours of use.",
+      "materialCare": [
+        "Machine wash warm with similar colors",
+        "Do not bleach",
+        "Tumble dry low",
+        "Warm iron if necessary",
+        "Do not dry clean",
+        "Avoid fabric softeners for longevity",
+        "Turn inside out before washing",
+        "Inspect embroidery before ironing"
+      ],
+      "dimensions": [
+        "Available Sizes: XS, S, M, L, XL, XXL",
+        "Top Length: Regular fit, hip-length",
+        "Pants Inseam: Approx. 30 inches",
+        "Color: Medical Blue with customizable logo"
+      ],
+      "rating": 4,
+      "category": "Medical Uniforms",
+      "link": "/products/7"
+    }
+  ]
 }

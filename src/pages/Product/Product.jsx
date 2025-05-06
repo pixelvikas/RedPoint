@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { FaRegStar, FaStar } from "react-icons/fa";
 import { FiPhoneCall, FiHeart, FiShare2 } from "react-icons/fi";
 import { TfiRulerAlt2 } from "react-icons/tfi";
@@ -6,6 +7,7 @@ import { MdOutlineQuestionAnswer } from "react-icons/md";
 import "./style.css";
 
 const Product = () => {
+  const { product: productId } = useParams(); // Get product ID from URL
   const [product, setProduct] = useState(null);
   const [mainImage, setMainImage] = useState("");
   const [activeTab, setActiveTab] = useState("description");
@@ -15,14 +17,18 @@ const Product = () => {
     fetch("/shop-data.json")
       .then((res) => res.json())
       .then((data) => {
-        if (data.products && data.products.length > 0) {
-          const selectedProduct = data.products[0];
-          setProduct(selectedProduct);
-          setMainImage(selectedProduct.image1); // No "/assets/" prefix
+        const foundProduct = data.products.find(
+          (p) => p.id === parseInt(productId)
+        );
+        if (foundProduct) {
+          setProduct(foundProduct);
+          setMainImage(foundProduct.image1);
+        } else {
+          console.error("Product not found");
         }
       })
       .catch((err) => console.error("Failed to fetch product data", err));
-  }, []);
+  }, [productId]); // Refetch when ID changes
 
   if (!product) return <div>Loading...</div>;
 
@@ -31,9 +37,11 @@ const Product = () => {
     product.image2,
     product.image3,
     product.image4,
+    product.image5,
+    product.image6,
   ]
     .filter(Boolean)
-    .map((img) => img); // No additional prefix needed
+    .map((img) => img);
 
   const handleThumbnailClick = (image) => setMainImage(image);
   const toggleWishlist = () => setIsWishlisted(!isWishlisted);
@@ -64,7 +72,6 @@ const Product = () => {
 
         <div className="product-info">
           <h1 className="product-title">{product.name}</h1>
-
           <div className="product-rating">
             <div className="stars">
               {[...Array(5)].map((_, i) =>
@@ -73,7 +80,6 @@ const Product = () => {
             </div>
             <span className="review-count">(24)</span>
           </div>
-
           <div className="product-description">
             <p>{product.description1}</p>
             <ul className="features-list">
@@ -82,7 +88,6 @@ const Product = () => {
               ))}
             </ul>
           </div>
-
           <div className="action-buttons">
             <button className="add-to-cart-btn">
               <FiPhoneCall className="btn-icon" />
@@ -90,7 +95,6 @@ const Product = () => {
             </button>
             <button className="product-contact-btn">Contact</button>
           </div>
-
           <div className="additional-actions">
             <button className="action-link">
               <MdOutlineQuestionAnswer className="action-icon" />
