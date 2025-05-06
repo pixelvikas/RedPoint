@@ -18,7 +18,7 @@ const Product = () => {
         if (data.products && data.products.length > 0) {
           const selectedProduct = data.products[0];
           setProduct(selectedProduct);
-          setMainImage(`/assets/${selectedProduct.image1}`);
+          setMainImage(selectedProduct.image1); // No "/assets/" prefix
         }
       })
       .catch((err) => console.error("Failed to fetch product data", err));
@@ -33,7 +33,7 @@ const Product = () => {
     product.image4,
   ]
     .filter(Boolean)
-    .map((img) => `/assets/${img}`);
+    .map((img) => img); // No additional prefix needed
 
   const handleThumbnailClick = (image) => setMainImage(image);
   const toggleWishlist = () => setIsWishlisted(!isWishlisted);

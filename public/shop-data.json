@@ -24,10 +24,10 @@
     "products": [
         {
             "id": 1,
-            "image1": "../src/assets/producta1.png",
-            "image2": "../src/assets/producta2.png",
-            "image3": "../src/assets/producta3.png",
-            "image4": "../src/assets/producta4.png",
+            "image1": "/producta1.png",
+            "image2": "/producta2.png",
+            "image3": "/producta3.png",
+            "image4": "/producta4.png",
             "name": "HI-VIS Reflective Jacket",
             "description1": "Stay protected and visible on job sites with this high-visibility, water-resistant safety jacket. Ideal for construction, roadside assistance, and industrial environments.",
             "bullets": [
