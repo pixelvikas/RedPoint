@@ -3,17 +3,6 @@ import { FaChevronDown, FaChevronUp, FaStar, FaRegStar } from "react-icons/fa";
 import shopherobg from "../../assets/bc-shop.jpg";
 import "./style.css";
 
-// Dynamically import all images in the assets folder
-const imageModules = import.meta.glob("../../assets/*.{jpg,jpeg,png,svg}", {
-  eager: true,
-});
-
-const images = Object.entries(imageModules).reduce((acc, [path, module]) => {
-  const fileName = path.split("/").pop();
-  acc[fileName] = module.default;
-  return acc;
-}, {});
-
 const Shop = () => {
   const [isCategoryOpen, setIsCategoryOpen] = useState(true);
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -138,14 +127,7 @@ const Shop = () => {
                 <a href={product.link} key={product.id}>
                   <div className="product-card">
                     <div className="product-image-container">
-                      <img
-                        src={images[product.image1]}
-                        alt={product.name}
-                        loading="lazy"
-                        onError={(e) => {
-                          e.target.style.display = "none";
-                        }}
-                      />
+                      <img src={product.image1} alt={product.name} />
                     </div>
                     <div className="product-details">
                       <h3 className="product-title">{product.name}</h3>
