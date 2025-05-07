@@ -105,7 +105,7 @@
       "image3": "/productc3.png",
       "image4": "/productc4.png",
       "image5": "/productc5.png",
-      "name": "HI-VIS REF Coverall",
+      "name": "HI-VIS REF Suit",
       "description1": "Stay protected and visible in hazardous environments with this high-visibility orange coverall. Designed for safety and comfort, it features reflective striping for maximum visibility and a durable build for rugged use.",
       "bullets": [
         "Bright orange color for high visibility",
@@ -224,7 +224,7 @@
       "image4": "/productf4.png",
       "image5": "/productf5.png",
       "image6": "/productf6.png",
-      "name": "HI-VIS Flame-RES Coverall",
+      "name": "HI-VIS Flame-RES Suit",
       "description1": "This high-visibility flame-resistant coverall is designed for maximum safety and comfort in industrial environments. With bright orange color and reflective strips, it ensures visibility and protection in low-light and hazardous conditions.",
       "bullets": [
         "Made from durable flame-resistant cotton fabric",
@@ -294,6 +294,156 @@
       "rating": 4,
       "category": "Medical Uniforms",
       "link": "/products/7"
+    },
+    {
+      "id": 8,
+      "image1": "/producth1.png",
+      "image2": "/producth2.png",
+      "name": "Industrial Lab Coat",
+      "description1": "This durable and professional lab coat is ideal for industrial, laboratory, and workshop environments. Designed for functionality and comfort, it features a clean, classic look with practical pocket storage.",
+      "bullets": [
+        "High-quality poly-cotton blend for durability and comfort",
+        "Three spacious pockets for tools and accessories",
+        "Button-down front with secure closure",
+        "Professional collar design",
+        "Long sleeves for full arm protection",
+        "Ideal for laboratory, factory, or mechanical use",
+        "Easy to wear and remove",
+        "Unisex design suitable for all workplaces"
+      ],
+      "description2": "Whether you're working in a lab, on the shop floor, or in a mechanical setting, this lab coat offers professional appearance and functional design. The deep navy blue fabric helps maintain a clean look over time.",
+      "materialCare": [
+        "65% Polyester, 35% Cotton",
+        "Machine washable",
+        "Do not bleach",
+        "Tumble dry low",
+        "Iron on medium heat if needed",
+        "Wash with similar colors",
+        "Avoid dry cleaning",
+        "Use mild detergent"
+      ],
+      "dimensions": [
+        "Length: 100 cm",
+        "Sleeve length: 60 cm",
+        "Chest width: 55 cm",
+        "Pocket depth: 20 cm"
+      ],
+      "rating": 4,
+      "category": "Workwear",
+      "link": "/products/8"
+    },
+    {
+      "id": 9,
+      "image1": "/producti1.png",
+      "image2": "/producti2.png",
+      "image3": "/producti3.png",
+      "name": "Firefighter Suit",
+      "description1": "This professional-grade firefighter suit offers maximum protection against extreme heat, flames, and hazardous environments. Designed for safety and functionality, it includes a full-body suit, helmet, gloves, and boots.",
+      "bullets": [
+        "Heat and flame-resistant outer shell",
+        "Reflective stripes for high visibility",
+        "Durable, multi-layer construction for maximum protection",
+        "Breathable inner lining for comfort during long wear",
+        "Includes helmet with face shield and breathing apparatus compatibility",
+        "Elastic cuffs and ankle closures to seal out smoke and debris",
+        "Multiple utility pockets for carrying tools and gear",
+        "Ideal for emergency response, fire rescue, and industrial safety"
+      ],
+      "description2": "Engineered for frontline safety, this firefighter suit ensures reliable protection in the most dangerous environments. High-visibility details and reinforced materials make it essential gear for rescue professionals.",
+      "materialCare": [
+        "Outer Shell: Flame-retardant aramid fabric",
+        "Inner Lining: Moisture-wicking and heat-resistant",
+        "Hand wash recommended for longevity",
+        "Do not bleach",
+        "Air dry only",
+        "Do not iron reflective areas",
+        "Remove detachable components before washing",
+        "Inspect regularly for wear and tear"
+      ],
+      "dimensions": [
+        "Jacket Length: 85 cm",
+        "Pant Length: 110 cm",
+        "Chest Width: 60 cm",
+        "Helmet Size: Adjustable (54–62 cm)"
+      ],
+      "rating": 4,
+      "category": "Fire Safety Gear",
+      "link": "/products/9"
+    },
+    {
+      "id": 10,
+      "image1": "/productl1.png",
+      "image2": "/productl2.png",
+      "image3": "/productl3.png",
+      "name": "Work Trousers",
+      "description1": "Engineered for durability and performance, these reinforced work trousers offer maximum mobility and protection for demanding work environments. Ideal for construction, carpentry, or warehouse jobs.",
+      "bullets": [
+        "Durable poly-cotton fabric with reinforced knee panels",
+        "Multiple utility pockets including cargo and tool compartments",
+        "Contrast black paneling for added durability and modern look",
+        "Hammer loop and pen slots for convenient tool access",
+        "Ergonomic fit with articulated knees for ease of movement",
+        "Heavy-duty stitching for long-lasting use",
+        "Ideal for construction, workshop, or industrial wear",
+        "Belt loops and secure button closure"
+      ],
+      "description2": "These work trousers combine rugged performance with comfort and utility. Designed for tradesmen and professionals, the reinforced areas help withstand daily wear while offering ample storage for your gear.",
+      "materialCare": [
+        "65% Polyester, 35% Cotton",
+        "Machine washable at 40°C",
+        "Do not bleach",
+        "Tumble dry low",
+        "Iron on low heat",
+        "Avoid fabric softeners",
+        "Do not dry clean",
+        "Wash inside out to protect details"
+      ],
+      "dimensions": [
+        "Waist: 32–40 inches (varies by size)",
+        "Inseam: 32 inches",
+        "Knee panel height: 25 cm",
+        "Cargo pocket size: 18 x 15 cm"
+      ],
+      "rating": 4,
+      "category": "Workwear",
+      "link": "/products/10"
+    },
+    {
+      "id": 11,
+      "image1": "/productm1.png",
+      "image2": "/productm2.png",
+      "name": "HI-VIS REF Work Trousers",
+      "description1": "Designed for safety in low-light and hazardous environments, these high-visibility work trousers combine bright orange fabric with reflective striping for enhanced visibility. Built for comfort and functionality.",
+      "bullets": [
+        "Bright orange high-visibility fabric",
+        "Reflective tape on legs for nighttime safety",
+        "Reinforced knee panels for durability",
+        "Multiple utility and cargo pockets for tools",
+        "Secure fit with belt loops and Velcro adjustments",
+        "Lightweight and breathable for all-day wear",
+        "Ideal for construction, road work, and emergency services",
+        "Easy movement with ergonomic, pre-bent leg design"
+      ],
+      "description2": "These reflective safety trousers ensure you're seen in any condition while providing the toughness needed on the job. Perfect for workers in road construction, logistics, or industrial zones requiring enhanced visibility.",
+      "materialCare": [
+        "80% Polyester, 20% Cotton",
+        "Machine wash cold with similar colors",
+        "Do not bleach",
+        "Tumble dry low",
+        "Cool iron if needed",
+        "Do not dry clean",
+        "Avoid washing with abrasive fabrics",
+        "Inspect reflective tape regularly for wear"
+      ],
+      "dimensions": [
+        "Waist: 30–42 inches (varies by size)",
+        "Inseam: 31 inches",
+        "Reflective band width: 5 cm",
+        "Cargo pocket size: 16 x 14 cm"
+      ],
+      "rating": 4,
+      "category": "High-Visibility Workwear",
+      "link": "/products/11"
     }
   ]
 }
