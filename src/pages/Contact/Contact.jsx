@@ -41,7 +41,7 @@ const Contact = () => {
             <div className="map-container">
               <iframe
                 title="Company Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.9193236854294!2d72.87898507430629!3d19.103939682106375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8bd850fe24b%3A0xc190a88be735d0b5!2sImprints%20INC!5e1!3m2!1sen!2sin!4v1726071394981!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3131.964532322765!2d72.894518275206!3d19.101551682108305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA2JzA1LjYiTiA3MsKwNTMnNDkuNSJF!5e1!3m2!1sen!2sin!4v1748284793993!5m2!1sen!2sin"
                 className="map-iframe"
                 allowFullScreen
                 loading="lazy"
@@ -55,7 +55,11 @@ const Contact = () => {
                 <FaMapMarkerAlt className="detail-icon" />
                 <div>
                   <h3>Address</h3>
-                  <p>123 Business Street, Mumbai, India 400001</p>
+                  <p>
+                    Redpoint Enterprise, Nathibai Sadan, Pipe Line, Mohili
+                    Village, Sakinaka, Mohili Village, Mumbai, Maharashtra
+                    400072
+                  </p>
                 </div>
               </div>
 
@@ -64,7 +68,7 @@ const Contact = () => {
                 <div>
                   <h3>Email</h3>
                   <a href="mailto:info@thriftconceptsllp.com">
-                    info@thriftconceptsllp.com
+                    info@redpointenterprise.com
                   </a>
                 </div>
               </div>
@@ -73,7 +77,7 @@ const Contact = () => {
                 <FaPhone className="detail-icon" />
                 <div>
                   <h3>Phone</h3>
-                  <a href="tel:+919324389141">+91 9324389141</a>
+                  <a href="tel:+919324389141">+91 8779567749</a>
                 </div>
               </div>
             </div>

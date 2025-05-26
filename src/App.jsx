@@ -48,7 +48,7 @@ const MainApp = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>
-      <WhatsAppButton phoneNumber="9324389141" size={50} />
+      <WhatsAppButton phoneNumber="+91 8779567749" size={50} />
       <Footer />
       <ScrollToTopButton />
     </>

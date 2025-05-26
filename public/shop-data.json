@@ -95,7 +95,7 @@
         "Chest: 42–52 inches"
       ],
       "rating": 4,
-      "category": "Safety Jackets",
+      "category": "Jackets",
       "link": "/products/2"
     },
     {
@@ -135,7 +135,7 @@
         "Sleeve Length: 25 inches"
       ],
       "rating": 4,
-      "category": "Protective Gear",
+      "category": "Suits",
       "link": "/products/3"
     },
     {
@@ -173,7 +173,7 @@
         "Shoulder Width: 18 inches"
       ],
       "rating": 4,
-      "category": "Workwear / Safety Apparel",
+      "category": "Jackets",
       "link": "/products/4"
     },
     {
@@ -213,7 +213,7 @@
         "Inseam: 30 inches"
       ],
       "rating": 4,
-      "category": "Thermal Protection / Industrial Safety Gear",
+      "category": "Suits",
       "link": "/products/5"
     },
     {
@@ -254,7 +254,7 @@
         "Color: Safety Orange with Reflective Strips"
       ],
       "rating": 4,
-      "category": "Industrial Safety Wear",
+      "category": "Suits",
       "link": "/products/6"
     },
     {
@@ -292,7 +292,7 @@
         "Color: Medical Blue with customizable logo"
       ],
       "rating": 4,
-      "category": "Medical Uniforms",
+      "category": "Suits",
       "link": "/products/7"
     },
     {
@@ -329,7 +329,7 @@
         "Pocket depth: 20 cm"
       ],
       "rating": 4,
-      "category": "Workwear",
+      "category": "Jackets",
       "link": "/products/8"
     },
     {
@@ -367,7 +367,7 @@
         "Helmet Size: Adjustable (54–62 cm)"
       ],
       "rating": 4,
-      "category": "Fire Safety Gear",
+      "category": "Suits",
       "link": "/products/9"
     },
     {
@@ -405,14 +405,14 @@
         "Cargo pocket size: 18 x 15 cm"
       ],
       "rating": 4,
-      "category": "Workwear",
+      "category": "Trousers",
       "link": "/products/10"
     },
     {
       "id": 11,
       "image1": "/productm1.png",
       "image2": "/productm2.png",
-      "name": "HI-VIS REF Work Trousers",
+      "name": "HI-VIS REF Trousers",
       "description1": "Designed for safety in low-light and hazardous environments, these high-visibility work trousers combine bright orange fabric with reflective striping for enhanced visibility. Built for comfort and functionality.",
       "bullets": [
         "Bright orange high-visibility fabric",
@@ -442,8 +442,194 @@
         "Cargo pocket size: 16 x 14 cm"
       ],
       "rating": 4,
-      "category": "High-Visibility Workwear",
+      "category": "Trousers",
       "link": "/products/11"
+    },
+    {
+      "id": 12,
+      "image1": "/productn1.png",
+      "image2": "/productn2.png",
+      "image3": "/productn3.png",
+      "name": "Safety Helmet Chin Strap",
+      "description1": "This industrial safety helmet is engineered for head protection in construction and industrial environments. Available in yellow, white, and blue, it comes with a secure chin strap and ventilation slots for maximum safety and comfort.",
+      "bullets": [
+        "High-impact ABS shell for superior protection",
+        "Adjustable 4-point chin strap for secure fit",
+        "Ventilation slots for airflow and reduced heat buildup",
+        "Available in yellow, white, and blue colors",
+        "Comfortable interior padding with sweatband",
+        "Lightweight design for all-day wear",
+        "Ideal for construction, utility, and industrial workers",
+        "Compatible with earmuffs and face shields"
+      ],
+      "description2": "Designed to meet rigorous safety standards, this helmet offers both comfort and protection on the job site. Its robust build and practical design make it a trusted choice for professionals in high-risk work zones.",
+      "materialCare": [
+        "Shell: High-impact ABS plastic",
+        "Clean with mild soap and water",
+        "Do not use strong chemicals or abrasives",
+        "Store in a cool, dry place away from sunlight",
+        "Inspect straps and shell regularly for damage",
+        "Replace after significant impact or every 5 years"
+      ],
+      "dimensions": [
+        "Head circumference: 52–63 cm (adjustable)",
+        "Helmet weight: ~360 grams",
+        "Strap width: 1.5 cm",
+        "Shell thickness: ~3 mm"
+      ],
+      "rating": 4.5,
+      "category": "Accessories",
+      "link": "/products/12"
+    },
+    {
+      "id": 13,
+      "image1": "/producto1.png",
+      "image2": "/producto2.png",
+      "image3": "/producto3.png",
+      "name": "PIP Safety Helmet",
+      "description1": "Engineered for optimal head protection, this PIP safety helmet features the advanced MIPS (Multi-directional Impact Protection System) technology. Designed to reduce rotational motion during angled impacts, it ensures maximum safety and comfort for industrial and construction environments.",
+      "bullets": [
+        "MIPS technology reduces rotational impact forces",
+        "Durable ABS shell for high-impact protection",
+        "6-point suspension system for superior comfort",
+        "Integrated sweatband and ventilation holes",
+        "Adjustable chin strap with secure buckle",
+        "Red quick-release tabs for easy access and removal",
+        "Ideal for construction, utility, and rescue operations",
+        "Modern design with secure rear adjustment dial"
+      ],
+      "description2": "This helmet sets a new standard for industrial headgear, combining safety, ergonomics, and modern technology. Ideal for professionals who prioritize comfort and protection during demanding tasks.",
+      "materialCare": [
+        "Outer shell: High-impact ABS plastic",
+        "Inner liner: MIPS low-friction layer and EPS foam",
+        "Wipe clean with damp cloth",
+        "Do not submerge in water or use harsh chemicals",
+        "Avoid prolonged exposure to extreme heat",
+        "Inspect suspension and MIPS liner regularly",
+        "Replace after significant impact or damage",
+        "Store in a cool, dry place"
+      ],
+      "dimensions": [
+        "Head circumference: 52–63 cm (adjustable)",
+        "Weight: Approx. 400g",
+        "Chin strap width: 1.5 cm",
+        "Ventilation holes: 8 total (4 per side)"
+      ],
+      "rating": 5,
+      "category": "Accessories",
+      "link": "/products/13"
+    },
+    {
+      "id": 14,
+      "image1": "/productp1.png",
+      "image2": "/productp2.png",
+      "image3": "/productp3.png",
+      "name": "DUA-VIS Helmet",
+      "description1": "This premium industrial safety helmet offers enhanced head protection with a dual visor system—one tinted for sunlight and one clear for debris—making it ideal for construction, electrical, and emergency work. It features a high-impact ABS shell, integrated chin strap, and breathable internal padding for all-day wear.",
+      "bullets": [
+        "High-impact ABS outer shell for robust protection",
+        "Dual integrated visors: clear and tinted for versatile use",
+        "Adjustable 4-point chin strap with quick-release buckle",
+        "Internal suspension system for shock absorption",
+        "Ventilation slots for airflow and comfort",
+        "Sweatband and padded head cradle for extended use",
+        "Reflective tape (on select models) for enhanced visibility",
+        "Ideal for construction, industrial, utility, and rescue operations"
+      ],
+      "description2": "Engineered for professionals who require reliable headgear across variable environments, this helmet features dual visors for sunlight and debris protection, ensuring visibility and safety during critical tasks. The ergonomic design enhances comfort, even during long shifts.",
+      "materialCare": [
+        "Shell: High-impact ABS plastic",
+        "Visors: Polycarbonate (scratch and UV-resistant)",
+        "Clean with mild soap and water",
+        "Do not use solvents or abrasive cleaners",
+        "Store in a cool, dry place away from direct sunlight",
+        "Inspect regularly for cracks or wear",
+        "Replace if impacted or damaged",
+        "Avoid exposure to high temperatures"
+      ],
+      "dimensions": [
+        "Helmet circumference: 52–64 cm (adjustable)",
+        "Clear visor height: approx. 13 cm",
+        "Tinted visor depth: approx. 9 cm",
+        "Weight: approx. 430 grams"
+      ],
+      "rating": 4.6,
+      "category": "Accessories",
+      "link": "/products/11"
+    },
+    {
+      "id": 15,
+      "image1": "/products1.png",
+      "image2": "/products2.png",
+      "name": "Flex Safety Glasses",
+      "description1": "These lightweight wraparound safety glasses offer reliable eye protection with a sleek, frameless design. Designed for comfort and extended wear, they are ideal for industrial work, laboratories, workshops, or home DIY projects.",
+      "bullets": [
+        "Frameless, single-lens design for maximum visibility",
+        "Clear, impact-resistant polycarbonate lens",
+        "Anti-scratch and anti-fog coating for clarity",
+        "Flexible black temple arms ensure a secure fit",
+        "Ultra-lightweight for all-day comfort",
+        "Wraparound style provides full eye coverage",
+        "UV protection for outdoor use",
+        "Suitable for industrial, lab, and home use"
+      ],
+      "description2": "Designed for both safety and style, these glasses provide comprehensive protection without compromising on comfort. The frameless wraparound design ensures minimal distortion and wide peripheral vision—perfect for professionals in high-precision environments.",
+      "materialCare": [
+        "Lens: Polycarbonate (impact and UV resistant)",
+        "Frame: Flexible plastic polymer",
+        "Clean using soft cloth and mild soap",
+        "Do not use abrasive or ammonia-based cleaners",
+        "Store in a protective case when not in use",
+        "Avoid extreme heat or chemical exposure",
+        "Inspect regularly for scratches or wear",
+        "Replace if visibility is impaired"
+      ],
+      "dimensions": [
+        "Lens width: approx. 145 mm",
+        "Arm length: approx. 135 mm",
+        "Lens height: approx. 45 mm",
+        "Weight: approx. 26 grams"
+      ],
+      "rating": 4.4,
+      "category": "Accessories",
+      "link": "/products/15"
+    },
+    {
+      "id": 16,
+      "image1": "/productt1.png",
+      "image2": "/productt2.png",
+      "name": "Safety Goggles Set",
+      "description1": "This set of industrial safety goggles offers full eye protection in hazardous environments. Designed with a wide, clear lens and a durable elastic strap, they ensure comfort and visibility for extended wear.",
+      "bullets": [
+        "Impact-resistant clear polycarbonate lens",
+        "Adjustable elastic strap for a secure fit",
+        "Wrap-around design for maximum eye coverage",
+        "Ventilation slits to reduce fogging",
+        "Soft inner foam padding for comfort",
+        "Chemical splash and dust protection",
+        "Compatible with most helmets and respirators",
+        "Ideal for construction, laboratories, and workshops"
+      ],
+      "description2": "Built to withstand industrial conditions, these safety goggles are essential for anyone working in environments with flying debris, chemical splashes, or dust. Comfortable enough for long shifts and reliable in tough conditions.",
+      "materialCare": [
+        "Lens: Polycarbonate",
+        "Frame: Thermoplastic Rubber (TPR)",
+        "Clean with mild soap and water",
+        "Do not use abrasive cleaners",
+        "Store in a cool, dry place",
+        "Inspect for scratches and damage before each use",
+        "Avoid exposure to high heat",
+        "Replace if visibility becomes impaired"
+      ],
+      "dimensions": [
+        "Lens width: 15.5 cm",
+        "Lens height: 7.5 cm",
+        "Strap length: Adjustable up to 55 cm",
+        "Weight: Approx. 120 grams"
+      ],
+      "rating": 4.6,
+      "category": "Accessories",
+      "link": "/products/16"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import { FaRegStar, FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -28,6 +29,8 @@ import customsamplebg from "../../assets/customsamplebg.png";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
+  const navigate = useNavigate();
+
   const clientLogos = [
     { src: client1, alt: "Client 1" },
     { src: client2, alt: "Client 2" },
@@ -54,6 +57,9 @@ const Home = () => {
     ));
   };
 
+  const handleProduct = () => {
+    navigate("/products");
+  };
   return (
     <>
       <div className="homepage-content">
@@ -136,7 +142,7 @@ const Home = () => {
             <img src={trousers} alt="Trousers" />
             <div className="overlay">
               <h1>TROUSERS</h1>
-              <button>
+              <button onClick={handleProduct}>
                 CHECK IT NOW <HiMiniArrowLongRight />
               </button>
             </div>
@@ -145,7 +151,7 @@ const Home = () => {
             <img src={jackets} alt="Jackets" />
             <div className="overlay">
               <h1>JACKETS</h1>
-              <button>
+              <button onClick={handleProduct}>
                 CHECK IT NOW <HiMiniArrowLongRight />
               </button>
             </div>
@@ -154,7 +160,7 @@ const Home = () => {
             <img src={accessories} alt="Accessories" />
             <div className="overlay">
               <h1>ACCESSORIES</h1>
-              <button>
+              <button onClick={handleProduct}>
                 CHECK IT NOW <HiMiniArrowLongRight />
               </button>
             </div>
@@ -163,7 +169,7 @@ const Home = () => {
             <img src={suits} alt="Suits" />
             <div className="overlay">
               <h1>SUITS</h1>
-              <button>
+              <button onClick={handleProduct}>
                 CHECK IT NOW <HiMiniArrowLongRight />
               </button>
             </div>
@@ -172,7 +178,7 @@ const Home = () => {
             <img src={shoes} alt="Shoes" />
             <div className="overlay">
               <h1>SHOES</h1>
-              <button>
+              <button onClick={handleProduct}>
                 CHECK IT NOW <HiMiniArrowLongRight />
               </button>
             </div>

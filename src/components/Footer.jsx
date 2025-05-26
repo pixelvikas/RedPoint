@@ -63,19 +63,19 @@ const Footer = () => {
             <h3>Categories</h3>
             <ul>
               <li>
-                <a href="#">TROUSERS</a>
+                <a href="/products">TROUSERS</a>
               </li>
               <li>
-                <a href="#">JACKETS</a>
+                <a href="/products">JACKETS</a>
               </li>
               <li>
-                <a href="#">ACCESSORIES</a>
+                <a href="/products">ACCESSORIES</a>
               </li>
               <li>
-                <a href="#">SUITS</a>
+                <a href="/products">SUITS</a>
               </li>
               <li>
-                <a href="#">SHOES</a>
+                <a href="/products">SHOES</a>
               </li>
             </ul>
           </div>
@@ -89,8 +89,8 @@ const Footer = () => {
               </li>
               <li>
                 <IoCallOutline className="footer-contact" />
-                <a href="tel:+02222334455" aria-label="Call us">
-                  +022-22334455
+                <a href="tel:8779567749" aria-label="Call us">
+                  +91 8779567749
                 </a>
               </li>
               <li>
