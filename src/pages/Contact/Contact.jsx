@@ -56,8 +56,8 @@ const Contact = () => {
                 <div>
                   <h3>Address</h3>
                   <p>
-                    Redpoint Enterprise, Nathibai Sadan, Pipe Line, Mohili
-                    Village, Sakinaka, Mohili Village, Mumbai, Maharashtra
+                    Redpoint Enterprise, Gala no. 23, Peer mohd cmpd, Barve
+                    agar, behind jangleshwar mandir, asalpha, Mumbai Maharashtra
                     400072
                   </p>
                 </div>
@@ -77,7 +77,11 @@ const Contact = () => {
                 <FaPhone className="detail-icon" />
                 <div>
                   <h3>Phone</h3>
-                  <a href="tel:+919324389141">+91 8779567749</a>
+                  <a href="tel:+91 8655669037">+91 8655669037</a>
+                  <br />
+                  <a href="tel:+91 8655669038">+91 8655669038</a>
+                  <br />
+                  <a href="tel:+91 8655669040">+91 8655669040</a>
                 </div>
               </div>
             </div>
